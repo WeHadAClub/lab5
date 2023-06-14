@@ -2,22 +2,25 @@ package commands;
 import  collection.CollectionManager;
 import collection.baseClasses.MusicBand;
 import commands.managers.Command;
+import exeptions.NoKeyExeptions;
+
+import java.security.cert.CertificateEncodingException;
 
 public class InsertCommand implements Command {
-    Integer key;
-    MusicBand mb;
-    public InsertCommand(Integer i){
-        this.key = i;
-        this.mb = mb;
+    public InsertCommand(){
     }
     @Override
     public String descr() {
-        return "insert - добавление нового элемента с заданным ключом. \n" +
-                "Инструкция: insert [key]";
+        return "insert - добавление нового элемента с заданным ключом. формат ввода: insert [key]";
     }
 
     @Override
     public void execute(CollectionManager manager) {
-        /*manager.add(key, mb);*/
+        try{
+            manager.add();
+        }
+        catch (NoKeyExeptions ex){
+            System.out.println("Вы не ввели ключ");
+        }
     }
 }

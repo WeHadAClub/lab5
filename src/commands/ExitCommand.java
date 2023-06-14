@@ -2,7 +2,6 @@ package commands;
 
 import collection.CollectionManager;
 import commands.managers.Command;
-import commands.managers.CommandManager;
 
 public class ExitCommand implements Command {
     @Override

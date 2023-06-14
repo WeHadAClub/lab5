@@ -1,40 +1,55 @@
 package userInteraction;
 
-import java.io.IOException;
 import collection.CollectionManager;
+import collection.baseClasses.MusicBand;
 import commands.managers.Command;
-import commands.managers.CommandList;
 import commands.managers.CommandManager;
+import fileInteraction.MapToXML;
+import fileInteraction.XMLToMap;
+import userInteraction.input.InputHandler;
+import userInteraction.input.ReadBase;
+
+import java.io.*;
+import java.util.stream.Collectors;
+
 
 public class Manager {
-    private InputHandler t1;
+    private InputHandler tNow;
     private final CommandManager commM;
     private final CollectionManager collM;
-
+    private MapToXML mtx;
+    String[] input;
     {
         try{
-            t1 = new InputHandler(new ReadBase(System.in));
+            tNow = new InputHandler(new ReadBase(System.in));
         }
         catch (IOException e){
             e.getStackTrace();
         }
         commM = new CommandManager();
-        collM = new CollectionManager();
+        mtx = new MapToXML();
     }
-
-    public Manager(){
-
+    public Manager(String filePath){
+        collM = new CollectionManager(this, tNow, commM, mtx, filePath);
+    }
+    public String[] getInput(){
+        return input;
     }
 
     public void start(){
         System.out.println("Привет! \nВведи 'help', чтобы увидеть список комманд. ");
-        String[] input;
         Command command;
         while(true){
-            input = t1.read();
-            if(commM.isCommand(input[0])){
-                command = commM.getCommand(input[0]);
-                command.execute(collM);
+            System.out.println("Введите комманду: ");
+            input = tNow.read();
+            try {
+                if(commM.isCommand(input[0])){
+                    command = commM.getCommand(input[0]);
+                    command.execute(collM);
+                }
+            }
+            catch (ArrayIndexOutOfBoundsException e){
+                System.out.println("Вы ввели пустую строку");
             }
 
         }
