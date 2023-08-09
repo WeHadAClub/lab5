@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * check the input
+ * check the input - a class that handles console input
  */
 public class CTInput {
     public boolean checkKey(String key){

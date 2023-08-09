@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="595282fa-5b2c-4dd1-a3b8-e06070f989b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/lab5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/AverageNOPCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/ClearCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/FilterLessThenNOPCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/RemoveGreaterCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/RemoveLowerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/UpdateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/collection/CollectionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/Coordinates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/MusicBand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/MusicBand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/MusicGenre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/MusicGenre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/collection/baseClasses/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/commands/ExecuteScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/commands/ExecuteScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/commands/HelpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/commands/HelpCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/commands/IfLowCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/commands/IfLowCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/commands/InfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/commands/InfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/commands/RemByGenreCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/commands/RemByGenreCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/commands/ShowCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/commands/ShowCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/commands/managers/CommandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/commands/managers/CommandManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/fileInteraction/MapToXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/fileInteraction/MapToXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/fileInteraction/XMLToMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/fileInteraction/XMLToMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/out/production/lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/out/production/lab5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/out/production/lab5/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/userInteraction/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/userInteraction/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/lab5/userInteraction/input/InputHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab5/userInteraction/input/InputHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection/CollectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/baseClasses/MusicBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection/baseClasses/MusicBand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/commands/ExecuteScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/RemByGenreCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/commands/RemByGenreCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/managers/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/commands/managers/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/managers/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/commands/managers/CommandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileInteraction/MapToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/fileInteraction/MapToXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileInteraction/XMLToMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/fileInteraction/XMLToMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/collection/CollectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/collection/CollectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/collection/baseClasses/MusicBand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/collection/baseClasses/MusicBand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/collection/baseClasses/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/collection/baseClasses/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/ExitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/ExitCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/HelpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/HelpCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/InfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/InfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/InsertCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/InsertCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/SaveCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/ShowCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/ShowCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/managers/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/managers/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/commands/managers/CommandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/commands/managers/CommandManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/fileInteraction/XMLToMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/fileInteraction/XMLToMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/userInteraction/CTInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/userInteraction/CTInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/userInteraction/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/userInteraction/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/userInteraction/input/InputHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/userInteraction/input/InputHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/userInteraction/input/ReadBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/userInteraction/input/ReadBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userInteraction/CTInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/userInteraction/CTInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userInteraction/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/userInteraction/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userInteraction/input/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/userInteraction/input/InputHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QH9CS7EUFh5xxprHwNZZr23FnL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/javalabs/lab5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="595282fa-5b2c-4dd1-a3b8-e06070f989b1" name="Changes" comment="" />
+      <created>1684999511905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684999511905</updated>
+      <workItem from="1684999513467" duration="24000" />
+      <workItem from="1685001070737" duration="23000" />
+      <workItem from="1685001479570" duration="25000" />
+      <workItem from="1685020676254" duration="68000" />
+      <workItem from="1686663217130" duration="409000" />
+      <workItem from="1686753606946" duration="1210000" />
+      <workItem from="1686852382819" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

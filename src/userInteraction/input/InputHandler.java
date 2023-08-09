@@ -1,15 +1,19 @@
 package userInteraction.input;
-import javax.xml.parsers.*;
-import org.xml.sax.*;
-import org.w3c.dom.*;
-
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
+/**
+ * The incoming stream handler class. It has the read, readLine methods
+ */
 public class InputHandler{
-    ReadBase handler;
+    ReadBase handler; //база чтения
     String[] words;
     public InputHandler(ReadBase n) throws IOException{
         handler = n;
+    }
+    public InputHandler(String path) throws FileNotFoundException {
+        handler = new ReadBase(new FileInputStream(path));
     }
 
     /**
@@ -22,10 +26,20 @@ public class InputHandler{
             words = handler.read().split(" ");
             return words;
         }
-        catch (NullPointerException e){
-            return new String[0];
-        } catch (IOException e) {
+        catch (NullPointerException | IOException e){
             return new String[0];
         }
+    }
+
+    public String readLine(){
+        try {
+            return handler.readLine();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public boolean ready(){
+        return handler.ready();
     }
 }

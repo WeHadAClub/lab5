@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 import java.util.Map;
 
 /**
- * Класс реализует запись информации коллеции в файл формата xml
+ * A class that translates a collection item into a file
  */
 public class MapToXML {
     /**

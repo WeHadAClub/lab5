@@ -10,9 +10,9 @@ public class RemoveCommand implements Command {
         return "remove_key [key] - удалить элемент из коллекции по его ключу.";
     }
     @Override
-    public void execute(CollectionManager mg) {
+    public void execute(CollectionManager mg, String[] input) {
         try{
-            mg.remove_key();
+            mg.remove_key(input);
         }
         catch (NoKeyExeptions e){
             System.out.println("Вы не ввели ключ");

@@ -12,7 +12,7 @@ public class HelpCommand implements Command {
     }
 
     @Override
-    public void execute(CollectionManager mg){
+    public void execute(CollectionManager mg, String[] input){
         mg.help();
     }
 }

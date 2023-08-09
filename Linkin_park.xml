@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<musicband>
+	<id>1</id>
+	<name>Linkinpark</name>
+	<coordinates>
+		<x>1</x>
+		<y>2.0</y>
+	</coordinates>
+	<creationDate>`2023-05-11T17:44:27.282247900`</creationDate>
+	<numberOfParticipants>6</numberOfParticipants>
+	<genre>ROCK</genre>
+	<frontMan>
+		<name>Chester Benington</name>
+		<birthday>Sun Mar 07 00:00:00 MSK 2004</birthday>
+		<height>183.0</height>
+		<weight>76</weight>
+		<passportID>1</passportID>
+	</frontMan>
+</musicband>
+

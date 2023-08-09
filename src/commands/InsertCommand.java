@@ -15,9 +15,9 @@ public class InsertCommand implements Command {
     }
 
     @Override
-    public void execute(CollectionManager manager) {
+    public void execute(CollectionManager manager, String[] input) {
         try{
-            manager.add();
+            manager.add(input);
         }
         catch (NoKeyExeptions ex){
             System.out.println("Вы не ввели ключ");

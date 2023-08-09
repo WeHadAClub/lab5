@@ -9,7 +9,7 @@ public class ShowCommand implements Command {
         return "show - выводит информацию о всех элементах коллекции";
     }
     @Override
-    public void execute(CollectionManager mg) {
+    public void execute(CollectionManager mg, String[] input) {
         mg.show();
     }
 }

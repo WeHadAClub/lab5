@@ -12,7 +12,9 @@ import userInteraction.input.ReadBase;
 import java.io.*;
 import java.util.stream.Collectors;
 
-
+/**
+ * The main manager who delegates tasks to other managers. In fact, it is the starting point of the program
+ */
 public class Manager {
     private InputHandler tNow;
     private final CommandManager commM;
@@ -45,7 +47,7 @@ public class Manager {
             try {
                 if(commM.isCommand(input[0])){
                     command = commM.getCommand(input[0]);
-                    command.execute(collM);
+                    command.execute(collM, input);
                 }
             }
             catch (ArrayIndexOutOfBoundsException e){

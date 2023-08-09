@@ -3,6 +3,9 @@ package collection.baseClasses;
 
 import java.time.LocalDateTime;
 
+/**
+ * A class containing information about a music group
+ */
 public class MusicBand implements Comparable<MusicBand>{
 
     private Long id; //Поле не может быть null, Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
@@ -85,8 +88,16 @@ public class MusicBand implements Comparable<MusicBand>{
     public String toString() {
         return "Называние музыкальной группы: " + getName() + "" +
                 "\nID музыкальной группы: " + getId() + "" +
+                "\nКоордината X:" + getCoordinates().getX()+
+                "\nКоордината Y:" + getCoordinates().getY()+
+                "\nДата создания группы: " + getCreationDate() +
+                "\nКоличество участников группы: " + getNumberOfParticipants() +
                 "\nЖанр: " + getGenre() +"" +
                 "\nДата создания группы: " + getCreationDate() + "" +
-                "\nИмя вокалиста: " + getFrontMan().getName() + "\n";
+                "\nИмя вокалиста: " + getFrontMan().getName() +
+                "\nДень рождения вокалиста: " + getFrontMan().getBirthday() +
+                "\nВес вокалиста: " + getFrontMan().getWeight() +
+                "\nРост вокалиста: " + getFrontMan().getHeight() +
+                "\n";
     }
 }

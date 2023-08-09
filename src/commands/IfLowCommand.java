@@ -11,9 +11,9 @@ public class IfLowCommand implements Command {
         return "replace_if_low_now [key] - заменить значение по ключу, если новое значение меньше старого.";
     }
     @Override
-    public void execute(CollectionManager mg) {
+    public void execute(CollectionManager mg, String[] input) {
         try{
-            mg.iflow();
+            mg.iflow(input);
         }
         catch(NoKeyExeptions e){
             System.out.println("Вы не ввели ключ");

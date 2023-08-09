@@ -10,7 +10,7 @@ public class ExitCommand implements Command {
     }
 
     @Override
-    public void execute(CollectionManager manager) {
+    public void execute(CollectionManager manager, String[] input) {
         manager.exit();
     }
 }
